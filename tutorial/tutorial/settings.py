@@ -22,7 +22,9 @@ LOG_LEVEL = 'WARNING'
 ROBOTSTXT_OBEY = False
 USER_AGENT = 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
 
-SPLASH_URL = 'http://localhost:8050'
+SPLASH_URL = 'http://192.168.99.100:8050/'
+
+
 DOWNLOADER_MIDDLEWARES = {
     'scrapy_splash.SplashCookiesMiddleware': 723,
     'scrapy_splash.SplashMiddleware': 725,
@@ -31,6 +33,10 @@ DOWNLOADER_MIDDLEWARES = {
 SPIDER_MIDDLEWARES = {
     'scrapy_splash.SplashDeduplicateArgsMiddleware': 100,
 }
+ITEM_PIPELINES = {
+    'tutorial.pipelines.TutorialPipeline': 300,
+}
+IMAGES_STORE = 'image'
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
 

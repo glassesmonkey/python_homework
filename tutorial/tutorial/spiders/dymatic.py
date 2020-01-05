@@ -61,6 +61,13 @@ def download(soup,chapter,page):
             #print(html.content)
             time.sleep(0.1)  # 自定义延时
 
+def get_pic_url(parameter_list):
+    soup = BeautifulSoup(parameter_list.body, 'html.parser')
+    items = soup.find_all('img')
+    list_ = []
+    for index,item in enumerate(items):
+        list_.append(item.get('src'))
+    return list_    
 
 #提取初始地址
 def extract_url(parameter_list):
@@ -80,8 +87,8 @@ def extract_url(parameter_list):
         soup = open_bs(list1[index])#打开第一页
         max_page = soup.find_all(onclick=find_max_page)#获取该章节总页数
         url_transfer = list1[index]
-        #print('---------result----------------')
-        #print(url_transfer)
+        # print('---------result----------------')
+        # print(url_transfer)
         for index,item in enumerate(max_page):
             onclicks = item.get('onclick')
             pattern = r'1\.'
@@ -97,7 +104,26 @@ def extract_url(parameter_list):
             soup_1 = open_by_drive(url_final)
             download(soup_1,result_2[3],i)
 
-        
+def get_total_page(parameter_list):
+        url = []
+        name = []
+        soup = BeautifulSoup(parameter_list.body, 'html.parser')
+        max_page = soup.find_all(onclick=find_max_page)
+        url_transfer = parameter_list.url
+        for index,item in enumerate(max_page):
+            onclicks = item.get('onclick')
+            pattern = r'1\.'
+            result = re.split(pattern, url_transfer)
+            pattern_2 = r'/'
+            result_2 = re.split(pattern_2,url_transfer)            
+            i=index+1
+            url_final=result[0]+str(i)+'.'+result[1]
+            url.append(url_final)
+            name.append(result_2[3]+"_"+str(i))
+
+            # print("----------------------result-----------------------")
+            # print(url_final)
+        return url,name
 
 
 
@@ -130,18 +156,22 @@ def get_total_session_url(url_):
     chrome_options.add_argument('--headless')
     chrome_options.add_argument('--disable-gpu')
     driver = webdriver.Chrome(executable_path='./chromedriver', chrome_options=chrome_options)
-    urllink = url_
-    driver.get(urllink)
-    time.sleep(5)
+    
+    driver.get(url_)
+    time.sleep(4)
     list1=[]
     #i = 0
     soup = BeautifulSoup(driver.page_source, 'html.parser')
     items = soup.find_all(href=re.compile("page"))
-    #print("items")
-    #print(items)
-    for item in enumerate(items):
-        url_split=item.get('href')
-        list1.append("http://www.1manhua.net"+url_split)
+    driver.close()
+    print("-----------------get_total_session_url_items---------------------")
+    print(items)
+
+    for item in items:
+        #url_split=item.get('href')
+        #print("----item-------")
+        #print(item.get("href"))
+        list1.append("http://www.1manhua.net"+item.get("href"))
 
     return list1
     

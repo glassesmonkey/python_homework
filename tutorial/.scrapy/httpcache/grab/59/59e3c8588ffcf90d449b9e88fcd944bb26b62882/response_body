@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>
+	虚假的寝取 015集 - 汗汗漫画
+</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="keywords" content="漫画,在线漫画,免费漫画,日本漫画,汗汗漫画"><link href="/css/comic/view.css" type="text/css" rel="stylesheet">
+    <script language="JavaScript" src="/script/view.js" type="text/javascript"></script>
+    <script language="JavaScript" src="/script/ajaxClass.js" type="text/javascript"></script>
+
+</head>
+<body>
+ 
+        
+        <div class="cHeader">
+            <div class="cH1">
+                <span>
+                    <script language="JavaScript">document.write("<a href=http://b.hhxiee.net/?errurl="+location.href+" style=color:red; target=_blank>点我报错漫画!</a>");</script><a href="http://b.hhxiee.net/?errurl=http://www.1manhua.net/page254713/1.html?s=10" style="color:red;" target="_blank">点我报错漫画!</a>
+                    <a href="" onclick="addFav();return false;">加入收藏夹!</a></span>
+                
+                <a href="/">首页</a> &gt; <a href="/manhua27411.html">返回漫画页</a> &nbsp;&nbsp;
+                第 <b>
+                    1
+                    /
+                    20</b> 页
+            </div>
+            <div style="text-align: left;color:gainsboro">
+                <span id="spMsg"></span>
+            </div>
+            <span id="spTmp"></span>
+        <input name="hdVolID" type="hidden" id="hdVolID" value="254713"><input name="hdS" type="hidden" id="hdS" value="10"><input name="hdDomain" type="hidden" id="hdDomain" value="http://164.94201314.net/dm10/|http://20.94201314.net/dm10/">
+        <input name="hdPageIndex" type="hidden" id="hdPageIndex" value="1"><input name="hdPageCount" type="hidden" id="hdPageCount" value="20">
+            <div class="cH2">
+                <input onclick="PageGo('prev')" type="button" value="上一页" id="btnPagePrv" class="valua">
+                <a href="" onclick="changePage('iCPH');return false;"><span id="iPageNo">第1页</span></a>
+                <div id="iPageHtm">第<a href="" ;="" onclick="csel2(1);return false;"><font color="red">1</font></a> <a href="" ;="" onclick="csel2(2);return false;">2</a> <a href="" ;="" onclick="csel2(3);return false;">3</a> <a href="" ;="" onclick="csel2(4);return false;">4</a> <a href="" ;="" onclick="csel2(5);return false;">5</a> <a href="" ;="" onclick="csel2(6);return false;">6</a> <a href="" ;="" onclick="csel2(7);return false;">7</a> <a href="" ;="" onclick="csel2(8);return false;">8</a> <a href="" ;="" onclick="csel2(9);return false;">9</a> <a href="" ;="" onclick="csel2(10);return false;">10</a> <a href="" ;="" onclick="csel2(11);return false;">11</a> <a href="" ;="" onclick="csel2(12);return false;">12</a> <a href="" ;="" onclick="csel2(13);return false;">13</a> <a href="" ;="" onclick="csel2(14);return false;">14</a> <a href="" ;="" onclick="csel2(15);return false;">15</a> <a href="" ;="" onclick="csel2(16);return false;">16</a> <a href="" ;="" onclick="csel2(17);return false;">17</a> <a href="" ;="" onclick="csel2(18);return false;">18</a> <a href="" ;="" onclick="csel2(19);return false;">19</a> <a href="" ;="" onclick="csel2(20);return false;">20</a> 页</div>
+                <input onclick="PageGo('next')" type="button" value="下一页" id="btnPageNext" class="valua">
+                <div id="iCPH"></div>
+            </div>
+        </div>
+        <div id="spSl">切换图片源：<a class="cSLSelected" href="" onclick="changeSL('0');return false;">南极号</a><a href="" onclick="changeSL('1');return false;">北极号</a></div>
+        <div id="iBodyQ" class="cBody" style="display: none;"></div>
+            <script>window_onload();</script>
+            
+        <div id="iBody" class="cBody">
+<div><div id="hh_2"><script src="/js/bd9.js"></script></div></div>
+                <img id="img1021" name="yexoooxopexytxqqxoooxopqxoptxqqxyqxywxyexootxyextpxttxtixyqxyqxyexqexqqxoorxqtxywxyqxtuxyexoiixqtxywxywxywxyqxqtxyqxyqxtpxywxyqxyrxeyxwpxeopoiuytrewqxtxqeppeixeitl" onerror="cerrmsg()" onload="initImg();movePage(this);prvLoadNext()" src="http://164.94201314.net/dm10//ok-comic10/s/27411/act_015/z_0001_11201.JPG"><input type="hidden" id="hdNextImg" value="yexoooxopexytxqqxoooxopqxoptxqqxyqxywxyexootxyextpxttxtixyqxyqxyexqexqqxoorxqtxywxyqxtuxyexoiixqtxywxywxywxtpxqtxttxtyxtixywxtexyrxeyxwpxeopoiuytrewqxtxqeppeixeitl">
+            <div id="dvMsg"></div></div><script>dfImg();</script>
+        <div class="cFooter">
+            <div>
+                <div>
+                    <div id="hh_1"><script src="/js/bd.js"></script><iframe marginheight="0" marginwidth="0" scrolling="no" frameborder="0" width="728" height="90" src="/js/html/yh728.htm"></iframe></div>                </div>
+                <input onclick="PageGo('prev')" type="button" value="&lt;&lt; 上一页" id="btnPagePrv2" class="value">
+                <input onclick="PageGo('next')" type="button" value="下一页 &gt;&gt;" id="btnPageNext2" class="value">
+                <div align="center">
+                <div id="hh_3"><script src="/js/bd8.js"></script></div>                       
+                </div>
+                <div id="goodad"><br>漫画中描述的内容只是作者个人观点,与汗汗漫画的立场无关,本站只为漫画爱好者提供试看，请勿模仿书中角色；<br>
+漫画作品各种版权、权益与责任归原作者所有，请支持购买正版。<script language="javascript" src="/js/stat.js"></script><br>
+                </div>
+            </div>
+        </div>
+
+<div id="span_hh_2"></div>
+<script>document.getElementById("hh_2").innerHTML = document.getElementById("span_hh_2").innerHTML; document.getElementById("span_hh_2").innerHTML = ""; </script>
+<div id="span_hh_1"></div>
+<script>document.getElementById("hh_1").innerHTML = document.getElementById("span_hh_1").innerHTML; document.getElementById("span_hh_1").innerHTML = ""; </script>
+<div id="span_hh_3"></div>
+<script>document.getElementById("hh_3").innerHTML = document.getElementById("span_hh_3").innerHTML; document.getElementById("span_hh_3").innerHTML = ""; </script>
+
+
+</body></html>
